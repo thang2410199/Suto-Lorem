@@ -7,7 +7,7 @@
     <ProjectGuid>{A0AA20ED-AC98-4E29-BE9D-7569CC18C9F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Suto_Lorem</RootNamespace>
+    <RootNamespace>SutoLorem</RootNamespace>
     <AssemblyName>Suto Lorem</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
@@ -107,7 +107,10 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AdorableAvatarsProvider.cs" />
+    <Compile Include="IImageProvider.cs" />
+    <Compile Include="ImageProviderBase.cs" />
+    <Compile Include="LoremImage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Suto_Lorem.rd.xml" />
   </ItemGroup>
