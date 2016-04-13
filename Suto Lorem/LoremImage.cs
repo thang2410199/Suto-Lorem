@@ -10,21 +10,17 @@
 //       \__\/    \  \:\        \  \:\        \  \:\        \  \::/   
 //                 \__\/         \__\/         \__\/         \__\/    
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net;
 using Windows.UI;
 
 namespace SutoLorem
 {
     public abstract class LoremImage
     {
-        ImageProvider _provider = ImageProvider.AdorableAvatars;
+        public ImageProvider Provider = ImageProvider.AdorableAvatars;
         IImageProvider imageProvider = new AdorableAvatarsProvider(200);
-        Color background = Colors.Gray;
-        Color foreground = Colors.White;
+        public Color Background { get; set; } = Colors.Gray;
+        public Color Foreground { get; set; } = Colors.White;
 
         public LoremImage()
         {
@@ -51,9 +47,10 @@ namespace SutoLorem
             return imageProvider.Get(identifier);
         }
 
-        public string GetPlaceholder(double width, double height, string text = null)
+        public string GetPlaceholder(double width, double height, Color? background = null, Color? foreground = null, string text = null)
         {
-            return "http://placehold.it/" + width + "x" + height + "/" + ColorToHex(background) + "/" + ColorToHex(foreground);
+            //http://placehold.it/350x150?text=hello
+            return "http://placehold.it/" + width + "x" + height + "/" + ColorToHex(background != null ? (Color)background : Background) + "/" + ColorToHex(foreground != null ? (Color)foreground : Foreground) + (string.IsNullOrEmpty(text) ? "" : WebUtility.UrlEncode(text));
         }
 
         private string ColorToHex(Color c)
