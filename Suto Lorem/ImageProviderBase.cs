@@ -18,13 +18,10 @@ using System.Threading.Tasks;
 
 namespace SutoLorem
 {
-    public abstract class ImageProviderBase : IImageProvider
+    internal abstract class ImageProviderBase : IImageProvider
     {
         protected double width, height = 200;
-        public virtual string Get(string identifier = null)
-        {
-            return "";
-        }
+        public abstract string Get(string identifier = null);
 
         public void SetSize(double width, double height)
         {

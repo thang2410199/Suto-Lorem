@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suto Lorem", "Suto Lorem\Suto Lorem.csproj", "{A0AA20ED-AC98-4E29-BE9D-7569CC18C9F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suto Lorem.Test", "Suto Lorem.Test\Suto Lorem.Test.csproj", "{145A3E4C-2455-4D8B-90EC-6B12530906FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,28 @@ Global
 		{A0AA20ED-AC98-4E29-BE9D-7569CC18C9F2}.Release|x64.Build.0 = Release|x64
 		{A0AA20ED-AC98-4E29-BE9D-7569CC18C9F2}.Release|x86.ActiveCfg = Release|x86
 		{A0AA20ED-AC98-4E29-BE9D-7569CC18C9F2}.Release|x86.Build.0 = Release|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|Any CPU.Build.0 = Debug|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|Any CPU.Deploy.0 = Debug|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|ARM.Build.0 = Debug|ARM
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|ARM.Deploy.0 = Debug|ARM
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|x64.ActiveCfg = Debug|x64
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|x64.Build.0 = Debug|x64
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|x64.Deploy.0 = Debug|x64
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|x86.ActiveCfg = Debug|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|x86.Build.0 = Debug|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Debug|x86.Deploy.0 = Debug|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|Any CPU.ActiveCfg = Release|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|ARM.ActiveCfg = Release|ARM
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|ARM.Build.0 = Release|ARM
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|ARM.Deploy.0 = Release|ARM
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|x64.ActiveCfg = Release|x64
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|x64.Build.0 = Release|x64
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|x64.Deploy.0 = Release|x64
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|x86.ActiveCfg = Release|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|x86.Build.0 = Release|x86
+		{145A3E4C-2455-4D8B-90EC-6B12530906FC}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

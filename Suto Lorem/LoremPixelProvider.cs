@@ -19,7 +19,7 @@ using System.Threading.Tasks;
 
 namespace SutoLorem
 {
-    public class LoremPixelProvider
+    internal class LoremPixelProvider : ImageProviderBase
     {
 
         //    http://lorempixel.com/400/200to get a random picture of 400 x 200 pixels
@@ -28,6 +28,15 @@ namespace SutoLorem
         //    http://lorempixel.com/400/200/sports/1to get picture no. 1/10 from the sports category
         //    http://lorempixel.com/400/200/sports/Dummy-Text...with a custom text on the random Picture
         //    http://lorempixel.com/400/200/sports/1/Dummy-Text...with a custom text on the selected Picture
+        internal LoremPixelProvider(double width, double height)
+        {
+            this.width = width;
+            this.height = height;
+        }
 
+        public override string Get(string identifier = null)
+        {
+            return string.Format("http://lorempixel.com/{0}/{1}", this.width, this.height);
+        }
     }
 }

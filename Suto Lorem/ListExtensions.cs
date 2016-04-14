@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SutoLorem
 {
-    public static class ListExtensions
+    internal static class ListExtensions
     {
-        public static T GetRandom<T>(this List<T> list)
+        static Random rand = new Random();
+        internal static T GetRandom<T>(this List<T> list)
         {
-            Random rand = new Random();
             return list[rand.Next(list.Count)];
         }
     }

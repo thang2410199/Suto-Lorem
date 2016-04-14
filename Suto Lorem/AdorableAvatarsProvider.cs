@@ -18,9 +18,8 @@ using System.Threading.Tasks;
 
 namespace SutoLorem
 {
-    public class AdorableAvatarsProvider : ImageProviderBase
+    internal class AdorableAvatarsProvider : ImageProviderBase
     {
-        string identifier = null;
 
         public AdorableAvatarsProvider(double width)
         {
