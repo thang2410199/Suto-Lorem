@@ -1,6 +1,6 @@
 # Suto-Lorem
 
-Open source library for generating random words, sentences, paragraph, avatar images, placeholder images and random images.
+Open source library for UWP app. Generate random words, sentences, paragraph, avatar images, placeholder images and random images.
 
 # Usage
 
