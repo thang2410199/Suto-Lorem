@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SutoLorem</id>
+        <version>1.0.0.0</version>
+        <title>Suto Lorem</title>
+        <authors>thang2410199</authors>
+        <owners>thang2410199</owners>
+        
+        <projectUrl>https://github.com/thang2410199/Suto-Lorem</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Open source library for generating random words, sentences, paragraph, avatar images, placeholder images and random images.</description>
+        <summary>Open source library for generating random words, sentences, paragraph, avatar images, placeholder images and random images.</summary>
+        <releaseNotes></releaseNotes>
+        <tags>uwp windows-10 instagram-like custom-transition</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\bin\Release\Suto Lorem.dll" target="lib\uap10.0\Suto Lorem.dll" />
+        <file src="..\bin\Release\Suto Lorem.pdb" target="lib\uap10.0\Suto Lorem.pdb" />
+        <file src="..\bin\Release\Suto Lorem.pri" target="lib\uap10.0\Suto Lorem.pri" />
+    </files>
+</package>
